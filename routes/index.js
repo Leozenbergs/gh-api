@@ -9,5 +9,6 @@ router.get('/',  (req, res) => {
 });
 
 router.get('/users/:user', user_controller.index)
+router.get('/users/:user/repos', user_controller.repos)
 
 module.exports = router
