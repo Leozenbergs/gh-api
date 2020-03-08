@@ -3,7 +3,6 @@ const router = express.Router()
 
 let user_controller = require('../controllers/userController');
 
-
 router.get('/',  (req, res) => {
   res.send('Hello World!');
 });
